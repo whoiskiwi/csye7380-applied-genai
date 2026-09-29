@@ -1,0 +1,14 @@
+# Data (auto-downloaded)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Checkpoints / large artifacts
+*.pt
+*.pth
+
+# OS
+.DS_Store
