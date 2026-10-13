@@ -1,0 +1,59 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "data": "data_v2 (train/val filtered to SQLite-runnable gold SQL)",
+  "train_examples": 10000,
+  "test_examples": 300,
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05
+  },
+  "train": {
+    "epochs": 2,
+    "steps": 1250,
+    "lr": 0.0002,
+    "effective_batch": 16,
+    "minutes": 60.9,
+    "gpu": "NVIDIA L4"
+  },
+  "best_v2": "v2_epoch2",
+  "best_adapter": "/content/text-to-sql-finetuning/v2/outputs/qwen2.5-1.5b-instruct-text2sql-lora-v2/final_adapter",
+  "results": {
+    "base": {
+      "n": 300.0,
+      "exec_accuracy": 0.6433333333333333,
+      "executable_rate": 0.9433333333333334,
+      "exact_match": 0.14333333333333334,
+      "format_compliance": 0.3433333333333333,
+      "explanation_rougeL": 0.36886006260333337,
+      "sec_per_example": 0.6361925681432088
+    },
+    "v1": {
+      "n": 300.0,
+      "exec_accuracy": 0.6733333333333333,
+      "executable_rate": 0.9133333333333333,
+      "exact_match": 0.32,
+      "format_compliance": 1.0,
+      "explanation_rougeL": 0.5392404411946666,
+      "sec_per_example": NaN
+    },
+    "v2_epoch1": {
+      "n": 300.0,
+      "exec_accuracy": 0.7333333333333333,
+      "executable_rate": 0.9666666666666667,
+      "exact_match": 0.3333333333333333,
+      "format_compliance": 1.0,
+      "explanation_rougeL": 0.5566593643928736,
+      "sec_per_example": 0.7450791263580322
+    },
+    "v2_epoch2": {
+      "n": 300.0,
+      "exec_accuracy": 0.7366666666666667,
+      "executable_rate": 0.9733333333333334,
+      "exact_match": 0.36,
+      "format_compliance": 1.0,
+      "explanation_rougeL": 0.547724467955949,
+      "sec_per_example": 0.7788374423980713
+    }
+  }
+}

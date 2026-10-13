@@ -1,0 +1,65 @@
+{
+  "args": {
+    "n_train": 10000,
+    "n_val": 500,
+    "n_test": 300,
+    "max_context_chars": 1500,
+    "seed": 42,
+    "out": "data"
+  },
+  "sizes": {
+    "train": 10000,
+    "val": 500,
+    "test": 300
+  },
+  "test_executable_pool": 3427,
+  "complexity": {
+    "train": {
+      "basic SQL": 4847,
+      "aggregation": 2202,
+      "single join": 1493,
+      "subqueries": 672,
+      "window functions": 360,
+      "multiple_joins": 294,
+      "set operations": 105,
+      "CTEs": 27
+    },
+    "val": {
+      "basic SQL": 242,
+      "aggregation": 110,
+      "single join": 75,
+      "subqueries": 34,
+      "window functions": 18,
+      "multiple_joins": 15,
+      "set operations": 5,
+      "CTEs": 1
+    },
+    "test": {
+      "basic SQL": 162,
+      "aggregation": 66,
+      "single join": 40,
+      "subqueries": 14,
+      "window functions": 10,
+      "multiple_joins": 5,
+      "set operations": 3
+    }
+  },
+  "task_type": {
+    "train": {
+      "analytics and reporting": 8858,
+      "data manipulation": 941,
+      "data retrieval": 118,
+      "data definition": 83
+    },
+    "val": {
+      "analytics and reporting": 425,
+      "data manipulation": 64,
+      "data retrieval": 9,
+      "data definition": 2
+    },
+    "test": {
+      "analytics and reporting": 294,
+      "data retrieval": 6
+    }
+  }
+}

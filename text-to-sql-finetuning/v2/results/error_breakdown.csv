@@ -1,0 +1,5 @@
+,wrong answers,non-executable SQL,uses MySQL/Postgres-only syntax
+base,107,17,2
+v1,98,26,11
+v2_epoch1,80,10,0
+v2_epoch2,79,8,0

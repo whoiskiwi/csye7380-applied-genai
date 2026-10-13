@@ -1,0 +1,67 @@
+{
+  "args": {
+    "n_train": 10000,
+    "n_val": 500,
+    "n_test": 300,
+    "max_context_chars": 1500,
+    "sqlite_only": true,
+    "seed": 42,
+    "out": "data",
+    "name": "v2"
+  },
+  "sizes": {
+    "train": 10000,
+    "val": 500,
+    "test": 300
+  },
+  "test_executable_pool": 3427,
+  "complexity": {
+    "train": {
+      "basic SQL": 5341,
+      "aggregation": 2186,
+      "single join": 1316,
+      "subqueries": 528,
+      "window functions": 310,
+      "multiple_joins": 215,
+      "set operations": 102,
+      "CTEs": 2
+    },
+    "val": {
+      "basic SQL": 267,
+      "aggregation": 109,
+      "single join": 66,
+      "subqueries": 26,
+      "window functions": 15,
+      "multiple_joins": 11,
+      "set operations": 5,
+      "CTEs": 1
+    },
+    "test": {
+      "basic SQL": 162,
+      "aggregation": 66,
+      "single join": 40,
+      "subqueries": 14,
+      "window functions": 10,
+      "multiple_joins": 5,
+      "set operations": 3
+    }
+  },
+  "task_type": {
+    "train": {
+      "analytics and reporting": 8732,
+      "data manipulation": 1052,
+      "data retrieval": 153,
+      "data definition": 63
+    },
+    "val": {
+      "analytics and reporting": 421,
+      "data manipulation": 63,
+      "data retrieval": 13,
+      "data definition": 3
+    },
+    "test": {
+      "analytics and reporting": 294,
+      "data retrieval": 6
+    }
+  }
+}

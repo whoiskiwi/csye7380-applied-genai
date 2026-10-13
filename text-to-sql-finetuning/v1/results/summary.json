@@ -1,0 +1,37 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "train_examples": 10000,
+  "test_examples": 300,
+  "lora": {
+    "r": 16,
+    "alpha": 32,
+    "dropout": 0.05
+  },
+  "train": {
+    "epochs": 1,
+    "lr": 0.0002,
+    "effective_batch": 16,
+    "minutes": 32.0,
+    "gpu": "NVIDIA L4"
+  },
+  "before": {
+    "model": "base",
+    "n": 300,
+    "exec_accuracy": 0.6433333333333333,
+    "executable_rate": 0.9433333333333334,
+    "exact_match": 0.14333333333333334,
+    "format_compliance": 0.3433333333333333,
+    "explanation_rougeL": 0.36886006260132714,
+    "sec_per_example": 0.6361925681432088
+  },
+  "after": {
+    "model": "finetuned",
+    "n": 300,
+    "exec_accuracy": 0.6733333333333333,
+    "executable_rate": 0.9133333333333333,
+    "exact_match": 0.32,
+    "format_compliance": 1.0,
+    "explanation_rougeL": 0.5392404411945702,
+    "sec_per_example": 0.7910096581776936
+  }
+}
