@@ -1,0 +1,13 @@
+name: S1 freeway pileup
+description: Rush-hour multi-vehicle crash far from the trauma center; a cardiac arrest competes for the same ambulances.
+congestion: rush
+ambulances: 6
+background_calls: 11
+background_force: [cardiac_arrest, stroke]
+majors:
+  - {id: M1, t_call: 5, location: [15.0, 17.0], type: entrapment, category: adult_trauma,
+     colors: {red: 2, yellow: 3, green: 3}, trapped: 2, needs_rescue: true}
+hospitals:
+  H1: {beds_used: 5}
+  H2: {beds_used: 3}
+  H3: {beds_used: 4}

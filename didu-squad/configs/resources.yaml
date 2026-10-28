@@ -1,0 +1,27 @@
+# Default response resources (scenario files may override counts).
+ambulances:
+  - {id: A1, location: [8.0, 12.0], als: true}
+  - {id: A2, location: [14.0, 16.0], als: true}
+  - {id: A3, location: [20.0, 10.0], als: true}
+  - {id: A4, location: [5.0, 22.0], als: false}
+  - {id: A5, location: [24.0, 20.0], als: false}
+  - {id: A6, location: [11.0, 6.0], als: true}
+  - {id: A7, location: [17.0, 25.0], als: false}
+  - {id: A8, location: [27.0, 8.0], als: false}
+teams:
+  - {id: T1, location: [10.0, 15.0], skills: [rescue]}
+  - {id: T2, location: [16.0, 20.0], skills: [fire, rescue]}
+  - {id: T3, location: [20.0, 12.0], skills: [rescue]}
+hotspots:            # background-call locations: (x, y, sigma, weight)
+  - [12.0, 15.0, 3.0, 0.5]
+  - [7.0, 9.0, 2.0, 0.2]
+  - [18.0, 22.0, 2.0, 0.2]
+  - [25.0, 16.0, 2.0, 0.1]
+background_mix:      # type: (share, colour weights red/yellow/green, category)
+  cardiac_arrest: {share: 0.10, colors: {red: 1.0}, category: cardiac}
+  stroke:         {share: 0.10, colors: {red: 0.7, yellow: 0.3}, category: stroke}
+  chest_pain:     {share: 0.20, colors: {red: 0.3, yellow: 0.6, green: 0.1}, category: cardiac}
+  fall:           {share: 0.25, colors: {yellow: 0.5, green: 0.5}, category: adult_trauma}
+  breathing:      {share: 0.20, colors: {red: 0.2, yellow: 0.6, green: 0.2}, category: adult_medical}
+  other:          {share: 0.15, colors: {yellow: 0.3, green: 0.7}, category: adult_medical}
+child_share: 0.10

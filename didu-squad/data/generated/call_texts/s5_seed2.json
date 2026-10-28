@@ -1,0 +1,86 @@
+{
+ "I01": {
+  "text": "Block 15-17, Downtown. Caller reports a multi-vehicle crash on the highway, 9 people involved: 2 seriously hurt, 4 hurt but talking, 3 walking. Some are trapped and need to be cut out.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "d0e38b13cc20"
+ },
+ "I02": {
+  "text": "Block 18-16, Downtown. Caller reports a person collapsed and not breathing normally, 1 person involved: 1 seriously hurt. Caller is en route to the address.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "497052d0135c"
+ },
+ "I03": {
+  "text": "Block 8-10, West. Caller reports suspected food poisoning at a group dinner involving 20 people: 5 seriously hurt, 5 hurt but talking, 10 walking. Caller is on scene and staying on the line.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "147b8e17bb1e"
+ },
+ "I04": {
+  "text": "Block 9-13, West. Caller reports difficulty breathing, 1 person involved: 1 injured but able to talk. Caller is at the scene.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "e85ae607d5b0"
+ },
+ "I05": {
+  "text": "Block 8-7, Southwest. Caller reports difficulty breathing, 1 person involved: 1 child who is talking but hurting. A child is also present.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "0a80d4cab11e"
+ },
+ "I06": {
+  "text": "Block 5-11, West. Caller reports a fall, 1 person involved: 1 injured but talking. Caller is on scene and staying on the line.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "eaee985f42a6"
+ },
+ "I07": {
+  "text": "Block 10-13, Downtown. Caller reports possible stroke, 1 person involved: 1 talking but hurt. Caller is on scene and staying on the line.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "501b5b763452"
+ },
+ "I08": {
+  "text": "Block 13-19, Downtown. Caller reports possible stroke, 1 person seriously hurt.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "a861dcabd252"
+ },
+ "I09": {
+  "text": "Block 15-19, Downtown. Caller reports fall, 1 person involved: 1 seriously hurt. A child was with the injured party.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "36bfb0103add"
+ },
+ "I10": {
+  "text": "Block 19-23, North. Caller reports a medical complaint, 1 person involved: 1 injured but talking. Caller is on scene and staying on the line.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "62cd48b55386"
+ },
+ "I11": {
+  "text": "Block 2-18, West. Caller reports a fall, 1 person involved: 1 injured but talking. Caller is on scene and staying on the line.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "d4a5e8cc2737"
+ },
+ "I12": {
+  "text": "Block 17-19, Downtown. Caller reports chest pain, 1 person involved: 1 walking. Caller is at the location and remains on the line.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "fd5e0fefd95b"
+ }
+}

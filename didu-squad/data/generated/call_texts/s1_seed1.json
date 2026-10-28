@@ -1,0 +1,86 @@
+{
+ "I01": {
+  "text": "Block 15-17, Downtown. Caller reports a multi-vehicle crash on the highway, 7 people involved: 2 seriously hurt, 2 hurt but talking, 3 walking. Some are trapped and need to be cut out.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "09c8af35fa5d"
+ },
+ "I02": {
+  "text": "Block 7-14, West. Caller reports possible stroke, 1 person involved: 1 talking but hurt. Caller is on scene and staying on the line.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "89a2516702e3"
+ },
+ "I03": {
+  "text": "Block 10-16, Downtown. Caller reports a person collapsed and not breathing normally, 1 seriously hurt. Caller is on scene and staying on the line.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "48249e9f6da3"
+ },
+ "I04": {
+  "text": "Block 7-11, West. Caller reports a fall, 1 person involved: 1 injured but talking. Caller is on scene and staying on the line.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "2bdd8a35cb06"
+ },
+ "I05": {
+  "text": "Block 11-17, Downtown. Caller reports a person collapsed and not breathing normally, 1 person involved: 1 seriously hurt. Caller is en route to the address.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "58bb7aeab344"
+ },
+ "I06": {
+  "text": "Block 11-14, Downtown. Caller reports difficulty breathing, 1 person involved: 1 able to talk but hurting. Caller is at the location and remains on the line.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "b7390d35a937"
+ },
+ "I07": {
+  "text": "Block 18-26, North. Caller reports difficulty breathing, 1 person involved: 1 injured but able to talk. Caller is at the location and remains on the line.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "f471eafe77d4"
+ },
+ "I08": {
+  "text": "Block 7-13, West. Caller reports a person collapsed and not breathing normally, 1 seriously hurt. Caller is on scene and staying on the line.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "0344252c8da4"
+ },
+ "I09": {
+  "text": "Block 15-15, Downtown. Caller reports a fall, 1 person involved: 1 injured but talking. Caller is on scene and staying on the line.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "7fe71dc4e458"
+ },
+ "I10": {
+  "text": "Block 14-13, Downtown. Caller reports chest pain, 1 person seriously hurt.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "34809342b86a"
+ },
+ "I11": {
+  "text": "Block 6-11, West. Caller reports a medical complaint, 1 person involved: 1 walking. Caller is at the location and will stay on the line.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "2450ffb2009a"
+ },
+ "I12": {
+  "text": "Block 24-16, East. Caller reports a person collapsed and not breathing normally, 1 seriously hurt. Caller is on scene and staying on the line.",
+  "source": "llm",
+  "model": "qwen2.5:3b",
+  "attempts": 1,
+  "facts_hash": "c2a958429eff"
+ }
+}

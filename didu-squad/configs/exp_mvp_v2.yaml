@@ -1,0 +1,9 @@
+# Main MVP experiment, second run. Changes after analysing the first run (exp_mvp.yaml), applied to MA and
+# MA-NoNeg alike: ACCEPT always means the proposed hospital; a counter naming the proposed hospital is an accept;
+# green loads match any hospital that can treat them; options listed nearest first; only surplus ambulances can be
+# redirected; role-rule checks with one retry (HC, Dispatch replies, commander rulings); prompts dispatch_transport
+# v3, hospital_coordination v3, resource_allocation v4. Five seeds instead of three.
+name: mvp_v2
+scenarios: [s1, s3, s5]
+seeds: [0, 1, 2, 3, 4]
+policies: [B0, B1, MA-NoNeg, MA]

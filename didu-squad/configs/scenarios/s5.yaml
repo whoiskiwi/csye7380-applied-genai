@@ -1,0 +1,15 @@
+name: S5 two major incidents at once
+description: A crash and a poisoning outbreak at rush hour; the commander must split ambulances between them.
+congestion: rush
+ambulances: 6
+background_calls: 10
+background_force: [cardiac_arrest]
+majors:
+  - {id: M1, t_call: 5, location: [15.0, 17.0], type: entrapment, category: adult_trauma,
+     colors: {red: 2, yellow: 3, green: 3}, trapped: 2, needs_rescue: true}
+  - {id: M2, t_call: 12, location: [8.0, 10.0], type: poisoning, category: adult_medical,
+     colors: {red: 3, yellow: 7, green: 10}, trapped: 0, needs_rescue: false}
+hospitals:
+  H1: {beds_used: 5}
+  H2: {beds_used: 3}
+  H3: {beds_used: 4}

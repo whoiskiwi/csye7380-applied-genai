@@ -1,0 +1,5 @@
+# Main MVP experiment: the same local model for MA and MA-NoNeg; baselines on the same seeds.
+name: mvp
+scenarios: [s1, s3, s5]
+seeds: [0, 1, 2]
+policies: [B0, B1, MA-NoNeg, MA]

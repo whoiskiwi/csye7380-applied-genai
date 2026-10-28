@@ -1,0 +1,679 @@
+{
+ "name": "S3 banquet food poisoning",
+ "seed": 0,
+ "congestion": "normal",
+ "incidents": [
+  {
+   "id": "I01",
+   "t_call": 10,
+   "location": [
+    10.0,
+    12.0
+   ],
+   "type": "poisoning",
+   "is_major": true,
+   "needs_rescue": false,
+   "reported_victims": 27,
+   "reported_colors": {
+    "red": 6,
+    "yellow": 8,
+    "green": 13
+   },
+   "dispatch_code": "D",
+   "description": "M1",
+   "patients": [
+    {
+     "id": "I01-P01",
+     "age": 75,
+     "category": "adult_medical",
+     "true_color": "red",
+     "reported_color": "red",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P02",
+     "age": 62,
+     "category": "adult_medical",
+     "true_color": "red",
+     "reported_color": "red",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P03",
+     "age": 21,
+     "category": "adult_medical",
+     "true_color": "red",
+     "reported_color": "red",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P04",
+     "age": 28,
+     "category": "adult_medical",
+     "true_color": "red",
+     "reported_color": "red",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P05",
+     "age": 38,
+     "category": "adult_medical",
+     "true_color": "yellow",
+     "reported_color": "red",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P06",
+     "age": 61,
+     "category": "adult_medical",
+     "true_color": "yellow",
+     "reported_color": "green",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P07",
+     "age": 42,
+     "category": "adult_medical",
+     "true_color": "yellow",
+     "reported_color": "yellow",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P08",
+     "age": 32,
+     "category": "adult_medical",
+     "true_color": "yellow",
+     "reported_color": "red",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P09",
+     "age": 43,
+     "category": "adult_medical",
+     "true_color": "yellow",
+     "reported_color": "yellow",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P10",
+     "age": 76,
+     "category": "adult_medical",
+     "true_color": "yellow",
+     "reported_color": "yellow",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P11",
+     "age": 44,
+     "category": "adult_medical",
+     "true_color": "yellow",
+     "reported_color": "green",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P12",
+     "age": 59,
+     "category": "adult_medical",
+     "true_color": "yellow",
+     "reported_color": "yellow",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P13",
+     "age": 32,
+     "category": "adult_medical",
+     "true_color": "yellow",
+     "reported_color": "yellow",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P14",
+     "age": 44,
+     "category": "adult_medical",
+     "true_color": "yellow",
+     "reported_color": "yellow",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P15",
+     "age": 77,
+     "category": "adult_medical",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P16",
+     "age": 27,
+     "category": "adult_medical",
+     "true_color": "green",
+     "reported_color": "yellow",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P17",
+     "age": 78,
+     "category": "adult_medical",
+     "true_color": "green",
+     "reported_color": "yellow",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P18",
+     "age": 38,
+     "category": "adult_medical",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P19",
+     "age": 18,
+     "category": "adult_medical",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P20",
+     "age": 76,
+     "category": "adult_medical",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P21",
+     "age": 78,
+     "category": "adult_medical",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P22",
+     "age": 38,
+     "category": "adult_medical",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P23",
+     "age": 42,
+     "category": "adult_medical",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P24",
+     "age": 77,
+     "category": "adult_medical",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P25",
+     "age": 47,
+     "category": "adult_medical",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P26",
+     "age": 47,
+     "category": "adult_medical",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P27",
+     "age": 45,
+     "category": "adult_medical",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P28",
+     "age": 61,
+     "category": "adult_medical",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P29",
+     "age": 65,
+     "category": "adult_medical",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P30",
+     "age": 76,
+     "category": "adult_medical",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I02",
+   "t_call": 11,
+   "location": [
+    8.0,
+    8.64
+   ],
+   "type": "chest_pain",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "red": 1
+   },
+   "dispatch_code": "D",
+   "description": "B02",
+   "patients": [
+    {
+     "id": "I02-P01",
+     "age": 70,
+     "category": "cardiac",
+     "true_color": "red",
+     "reported_color": "red",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I03",
+   "t_call": 13,
+   "location": [
+    10.26,
+    10.55
+   ],
+   "type": "cardiac_arrest",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "red": 1
+   },
+   "dispatch_code": "E",
+   "description": "B12",
+   "patients": [
+    {
+     "id": "I03-P01",
+     "age": 71,
+     "category": "cardiac",
+     "true_color": "red",
+     "reported_color": "red",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I04",
+   "t_call": 17,
+   "location": [
+    7.69,
+    5.93
+   ],
+   "type": "chest_pain",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "yellow": 1
+   },
+   "dispatch_code": "C",
+   "description": "B01",
+   "patients": [
+    {
+     "id": "I04-P01",
+     "age": 37,
+     "category": "cardiac",
+     "true_color": "yellow",
+     "reported_color": "yellow",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I05",
+   "t_call": 17,
+   "location": [
+    15.0,
+    14.96
+   ],
+   "type": "fall",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "yellow": 1
+   },
+   "dispatch_code": "B",
+   "description": "B06",
+   "patients": [
+    {
+     "id": "I05-P01",
+     "age": 80,
+     "category": "adult_trauma",
+     "true_color": "yellow",
+     "reported_color": "yellow",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I06",
+   "t_call": 22,
+   "location": [
+    15.73,
+    9.51
+   ],
+   "type": "fall",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "green": 1
+   },
+   "dispatch_code": "A",
+   "description": "B08",
+   "patients": [
+    {
+     "id": "I06-P01",
+     "age": 85,
+     "category": "adult_trauma",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I07",
+   "t_call": 23,
+   "location": [
+    12.65,
+    19.28
+   ],
+   "type": "breathing",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "red": 1
+   },
+   "dispatch_code": "D",
+   "description": "B07",
+   "patients": [
+    {
+     "id": "I07-P01",
+     "age": 46,
+     "category": "adult_medical",
+     "true_color": "red",
+     "reported_color": "red",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I08",
+   "t_call": 53,
+   "location": [
+    9.6,
+    17.2
+   ],
+   "type": "stroke",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "yellow": 1
+   },
+   "dispatch_code": "C",
+   "description": "B04",
+   "patients": [
+    {
+     "id": "I08-P01",
+     "age": 64,
+     "category": "stroke",
+     "true_color": "yellow",
+     "reported_color": "yellow",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I09",
+   "t_call": 63,
+   "location": [
+    8.99,
+    8.05
+   ],
+   "type": "stroke",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "yellow": 1
+   },
+   "dispatch_code": "C",
+   "description": "B03",
+   "patients": [
+    {
+     "id": "I09-P01",
+     "age": 64,
+     "category": "stroke",
+     "true_color": "red",
+     "reported_color": "yellow",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I10",
+   "t_call": 67,
+   "location": [
+    29.23,
+    19.06
+   ],
+   "type": "stroke",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "red": 1
+   },
+   "dispatch_code": "D",
+   "description": "B05",
+   "patients": [
+    {
+     "id": "I10-P01",
+     "age": 46,
+     "category": "stroke",
+     "true_color": "red",
+     "reported_color": "red",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I11",
+   "t_call": 80,
+   "location": [
+    6.06,
+    14.89
+   ],
+   "type": "other",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "green": 1
+   },
+   "dispatch_code": "A",
+   "description": "B10",
+   "patients": [
+    {
+     "id": "I11-P01",
+     "age": 49,
+     "category": "adult_medical",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I12",
+   "t_call": 85,
+   "location": [
+    20.97,
+    19.43
+   ],
+   "type": "fall",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "yellow": 1
+   },
+   "dispatch_code": "B",
+   "description": "B11",
+   "patients": [
+    {
+     "id": "I12-P01",
+     "age": 91,
+     "category": "adult_trauma",
+     "true_color": "yellow",
+     "reported_color": "yellow",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I13",
+   "t_call": 88,
+   "location": [
+    9.16,
+    9.15
+   ],
+   "type": "other",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "green": 1
+   },
+   "dispatch_code": "A",
+   "description": "B09",
+   "patients": [
+    {
+     "id": "I13-P01",
+     "age": 32,
+     "category": "adult_medical",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    }
+   ]
+  }
+ ],
+ "ambulances": [
+  {
+   "id": "A1",
+   "location": [
+    8.0,
+    12.0
+   ],
+   "als": true
+  },
+  {
+   "id": "A2",
+   "location": [
+    14.0,
+    16.0
+   ],
+   "als": true
+  },
+  {
+   "id": "A3",
+   "location": [
+    20.0,
+    10.0
+   ],
+   "als": true
+  },
+  {
+   "id": "A4",
+   "location": [
+    5.0,
+    22.0
+   ],
+   "als": false
+  },
+  {
+   "id": "A5",
+   "location": [
+    24.0,
+    20.0
+   ],
+   "als": false
+  }
+ ],
+ "teams": [
+  {
+   "id": "T1",
+   "location": [
+    10.0,
+    15.0
+   ],
+   "skills": [
+    "rescue"
+   ]
+  },
+  {
+   "id": "T2",
+   "location": [
+    16.0,
+    20.0
+   ],
+   "skills": [
+    "fire",
+    "rescue"
+   ]
+  },
+  {
+   "id": "T3",
+   "location": [
+    20.0,
+    12.0
+   ],
+   "skills": [
+    "rescue"
+   ]
+  }
+ ],
+ "hospital_overrides": {
+  "H1": {
+   "beds_used": 5
+  },
+  "H2": {
+   "beds_used": 3
+  },
+  "H3": {
+   "beds_used": 4,
+   "nurses": 6
+  }
+ }
+}

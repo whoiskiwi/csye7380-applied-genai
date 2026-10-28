@@ -1,0 +1,475 @@
+{
+ "name": "S1 freeway pileup",
+ "seed": 0,
+ "congestion": "rush",
+ "incidents": [
+  {
+   "id": "I01",
+   "t_call": 5,
+   "location": [
+    15.0,
+    17.0
+   ],
+   "type": "entrapment",
+   "is_major": true,
+   "needs_rescue": true,
+   "reported_victims": 9,
+   "reported_colors": {
+    "red": 1,
+    "yellow": 4,
+    "green": 4
+   },
+   "dispatch_code": "D",
+   "description": "M1",
+   "patients": [
+    {
+     "id": "I01-P01",
+     "age": 52,
+     "category": "adult_trauma",
+     "true_color": "red",
+     "reported_color": "red",
+     "needs_extrication": true
+    },
+    {
+     "id": "I01-P02",
+     "age": 22,
+     "category": "adult_trauma",
+     "true_color": "red",
+     "reported_color": "yellow",
+     "needs_extrication": true
+    },
+    {
+     "id": "I01-P03",
+     "age": 25,
+     "category": "adult_trauma",
+     "true_color": "yellow",
+     "reported_color": "yellow",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P04",
+     "age": 40,
+     "category": "adult_trauma",
+     "true_color": "yellow",
+     "reported_color": "yellow",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P05",
+     "age": 25,
+     "category": "adult_trauma",
+     "true_color": "yellow",
+     "reported_color": "yellow",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P06",
+     "age": 40,
+     "category": "adult_trauma",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P07",
+     "age": 66,
+     "category": "adult_trauma",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    },
+    {
+     "id": "I01-P08",
+     "age": 27,
+     "category": "adult_trauma",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I02",
+   "t_call": 6,
+   "location": [
+    20.85,
+    22.98
+   ],
+   "type": "chest_pain",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "yellow": 1
+   },
+   "dispatch_code": "C",
+   "description": "B07",
+   "patients": [
+    {
+     "id": "I02-P01",
+     "age": 36,
+     "category": "cardiac",
+     "true_color": "yellow",
+     "reported_color": "yellow",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I03",
+   "t_call": 21,
+   "location": [
+    10.27,
+    13.21
+   ],
+   "type": "cardiac_arrest",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "red": 1
+   },
+   "dispatch_code": "E",
+   "description": "B01",
+   "patients": [
+    {
+     "id": "I03-P01",
+     "age": 42,
+     "category": "cardiac",
+     "true_color": "red",
+     "reported_color": "red",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I04",
+   "t_call": 42,
+   "location": [
+    5.93,
+    17.04
+   ],
+   "type": "chest_pain",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "yellow": 1
+   },
+   "dispatch_code": "C",
+   "description": "B06",
+   "patients": [
+    {
+     "id": "I04-P01",
+     "age": 67,
+     "category": "cardiac",
+     "true_color": "yellow",
+     "reported_color": "yellow",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I05",
+   "t_call": 43,
+   "location": [
+    12.69,
+    16.86
+   ],
+   "type": "chest_pain",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "red": 1
+   },
+   "dispatch_code": "D",
+   "description": "B09",
+   "patients": [
+    {
+     "id": "I05-P01",
+     "age": 25,
+     "category": "cardiac",
+     "true_color": "red",
+     "reported_color": "red",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I06",
+   "t_call": 51,
+   "location": [
+    16.77,
+    23.01
+   ],
+   "type": "breathing",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "red": 1
+   },
+   "dispatch_code": "D",
+   "description": "B11",
+   "patients": [
+    {
+     "id": "I06-P01",
+     "age": 68,
+     "category": "adult_medical",
+     "true_color": "red",
+     "reported_color": "red",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I07",
+   "t_call": 71,
+   "location": [
+    4.31,
+    9.77
+   ],
+   "type": "cardiac_arrest",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "red": 1
+   },
+   "dispatch_code": "E",
+   "description": "B04",
+   "patients": [
+    {
+     "id": "I07-P01",
+     "age": 73,
+     "category": "cardiac",
+     "true_color": "red",
+     "reported_color": "red",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I08",
+   "t_call": 72,
+   "location": [
+    11.52,
+    17.31
+   ],
+   "type": "other",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "yellow": 1
+   },
+   "dispatch_code": "B",
+   "description": "B03",
+   "patients": [
+    {
+     "id": "I08-P01",
+     "age": 69,
+     "category": "adult_medical",
+     "true_color": "green",
+     "reported_color": "yellow",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I09",
+   "t_call": 74,
+   "location": [
+    15.91,
+    22.06
+   ],
+   "type": "fall",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "yellow": 1
+   },
+   "dispatch_code": "B",
+   "description": "B10",
+   "patients": [
+    {
+     "id": "I09-P01",
+     "age": 80,
+     "category": "adult_trauma",
+     "true_color": "yellow",
+     "reported_color": "yellow",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I10",
+   "t_call": 80,
+   "location": [
+    4.52,
+    11.05
+   ],
+   "type": "other",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "green": 1
+   },
+   "dispatch_code": "A",
+   "description": "B08",
+   "patients": [
+    {
+     "id": "I10-P01",
+     "age": 34,
+     "category": "adult_medical",
+     "true_color": "green",
+     "reported_color": "green",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I11",
+   "t_call": 84,
+   "location": [
+    8.2,
+    9.28
+   ],
+   "type": "cardiac_arrest",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "red": 1
+   },
+   "dispatch_code": "E",
+   "description": "B05",
+   "patients": [
+    {
+     "id": "I11-P01",
+     "age": 46,
+     "category": "cardiac",
+     "true_color": "red",
+     "reported_color": "red",
+     "needs_extrication": false
+    }
+   ]
+  },
+  {
+   "id": "I12",
+   "t_call": 85,
+   "location": [
+    12.88,
+    11.94
+   ],
+   "type": "stroke",
+   "is_major": false,
+   "needs_rescue": false,
+   "reported_victims": 1,
+   "reported_colors": {
+    "red": 1
+   },
+   "dispatch_code": "D",
+   "description": "B02",
+   "patients": [
+    {
+     "id": "I12-P01",
+     "age": 40,
+     "category": "stroke",
+     "true_color": "red",
+     "reported_color": "red",
+     "needs_extrication": false
+    }
+   ]
+  }
+ ],
+ "ambulances": [
+  {
+   "id": "A1",
+   "location": [
+    8.0,
+    12.0
+   ],
+   "als": true
+  },
+  {
+   "id": "A2",
+   "location": [
+    14.0,
+    16.0
+   ],
+   "als": true
+  },
+  {
+   "id": "A3",
+   "location": [
+    20.0,
+    10.0
+   ],
+   "als": true
+  },
+  {
+   "id": "A4",
+   "location": [
+    5.0,
+    22.0
+   ],
+   "als": false
+  },
+  {
+   "id": "A5",
+   "location": [
+    24.0,
+    20.0
+   ],
+   "als": false
+  }
+ ],
+ "teams": [
+  {
+   "id": "T1",
+   "location": [
+    10.0,
+    15.0
+   ],
+   "skills": [
+    "rescue"
+   ]
+  },
+  {
+   "id": "T2",
+   "location": [
+    16.0,
+    20.0
+   ],
+   "skills": [
+    "fire",
+    "rescue"
+   ]
+  },
+  {
+   "id": "T3",
+   "location": [
+    20.0,
+    12.0
+   ],
+   "skills": [
+    "rescue"
+   ]
+  }
+ ],
+ "hospital_overrides": {
+  "H1": {
+   "beds_used": 5
+  },
+  "H2": {
+   "beds_used": 3
+  },
+  "H3": {
+   "beds_used": 4
+  }
+ }
+}

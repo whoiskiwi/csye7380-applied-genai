@@ -1,0 +1,48 @@
+# Capability levels: 2 = capability match, 1 = can accept but not ideal, 0 = cannot accept.
+# Rows are patient categories; *_child applies to patients under 16.
+hospitals:
+  H1:
+    name: Level I Trauma Center
+    location: [26.0, 13.0]
+    er_beds: 12
+    doctors: [{skill: trauma, n: 2}, {skill: burn, n: 1}, {skill: emergency, n: 2}]
+    nurses: 10
+  H2:
+    name: Children's Hospital
+    location: [6.0, 19.0]
+    er_beds: 8
+    doctors: [{skill: pediatric, n: 2}, {skill: emergency, n: 1}]
+    nurses: 8
+  H3:
+    name: Community Hospital
+    location: [15.0, 13.0]
+    er_beds: 12
+    doctors: [{skill: emergency, n: 3}, {skill: cardiology, n: 1}]
+    nurses: 8
+
+capability:
+  #                 H1 H2 H3
+  adult_trauma:     [2, 0, 1]
+  child_trauma:     [1, 2, 1]
+  adult_burn:       [2, 0, 0]
+  child_burn:       [2, 1, 0]
+  stroke:           [2, 0, 1]
+  cardiac:          [1, 0, 2]
+  adult_medical:    [2, 0, 2]
+  child_medical:    [1, 2, 1]
+
+# Doctor skills that can take (or stabilize) a RED patient of each category; whether the hospital is a
+# capability match is decided by the matrix above. Yellow: any doctor.
+red_doctor_skills:
+  adult_trauma: [trauma, emergency]
+  child_trauma: [pediatric, trauma, emergency]
+  adult_burn: [burn, trauma]
+  child_burn: [burn, pediatric, emergency]
+  stroke: [emergency, trauma]
+  cardiac: [cardiology, emergency, trauma]
+  adult_medical: [emergency]
+  child_medical: [pediatric, emergency, trauma]
+
+staff_pool:
+  doctors: [{skill: emergency, n: 1}]
+  nurses: 4

@@ -1,0 +1,16 @@
+# Which model each agent uses. backend: mock | ollama | openai
+# Tiers differ a lot in size but both are free open models (run on the Explorer GPU):
+#   fast = qwen2.5:3b (~2 GB), strong = qwen2.5:14b (~9 GB). Override with ERS_MODEL_FAST / ERS_MODEL_STRONG.
+backend: ollama
+cache_mode: record          # live | record | replay
+tiers:
+  strong: {ollama: "qwen2.5:14b", openai: "gpt-4.1"}
+  fast:   {ollama: "qwen2.5:3b", openai: "gpt-4.1-mini"}
+agents:                     # agent -> tier (or a model name to override)
+  IncidentAssessment: fast
+  Dispatch: fast
+  HospitalCoordination: strong
+  Hospital: fast
+  ResourceAllocation: strong
+ollama_base_url: http://localhost:11434/v1
+temperature: 0

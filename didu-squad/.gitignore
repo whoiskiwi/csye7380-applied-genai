@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+._*
+.env
+hpc/logs/
+# experiment outputs are large; keep only the summaries (re-create the rest with cache_mode: replay)
+runs/*
+!runs/.gitkeep
+!runs/mvp/
+runs/mvp/*
+!runs/mvp/summary.csv
+!runs/mvp_v2/
+runs/mvp_v2/*
+!runs/mvp_v2/summary.csv
+!runs/*_results.md

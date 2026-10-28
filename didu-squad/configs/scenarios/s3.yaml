@@ -1,0 +1,13 @@
+name: S3 banquet food poisoning
+description: 20 poisoned diners, mostly mild; H3 is two nurses short; hospitals compete for the regional staff pool.
+congestion: normal
+ambulances: 6
+background_calls: 12
+background_force: [chest_pain, chest_pain]
+majors:
+  - {id: M1, t_call: 10, location: [10.0, 12.0], type: poisoning, category: adult_medical,
+     colors: {red: 3, yellow: 7, green: 10}, trapped: 0, needs_rescue: false}
+hospitals:
+  H1: {beds_used: 5}
+  H2: {beds_used: 3}
+  H3: {beds_used: 4, nurses: 6}
